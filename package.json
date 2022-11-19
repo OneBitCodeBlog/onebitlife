@@ -15,6 +15,7 @@
     "expo": "~47.0.6",
     "expo-splash-screen": "~0.17.5",
     "expo-status-bar": "~1.4.2",
+    "lottie-react-native": "^5.1.4",
     "react": "18.1.0",
     "react-native": "0.70.5"
   },
