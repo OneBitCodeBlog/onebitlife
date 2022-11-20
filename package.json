@@ -17,7 +17,8 @@
     "expo-status-bar": "~1.4.2",
     "lottie-react-native": "^5.1.4",
     "react": "18.1.0",
-    "react-native": "0.70.5"
+    "react-native": "0.70.5",
+    "react-native-gesture-handler": "^2.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
