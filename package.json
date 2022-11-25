@@ -18,6 +18,7 @@
     "lottie-react-native": "^5.1.4",
     "react": "18.1.0",
     "react-native": "0.70.5",
+    "react-native-dropdown-select-list": "^2.0.2",
     "react-native-gesture-handler": "^2.8.0",
     "react-native-paper": "^5.0.0-rc.9"
   },
