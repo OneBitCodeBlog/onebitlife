@@ -110,9 +110,7 @@ Android Studio, como emulador do App. Você pode baixar por esse link: https://d
 
 ## 🔮 Implementações futuras
 
-1. Implementar possibilidade de realizar entregas, incluindo no pedido a informação se ele será entregue ou não.
-
-2. Implementar a possibilidade de o cliente avaliar os entregadores.
+O projeto terá novas funcionalidades e os alunos do nosso novo curso Desenvolvimento Mobile com React Native terão acesso a ele!
 
 <br/>
 
