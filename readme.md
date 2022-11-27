@@ -39,7 +39,7 @@ O aplicativo OneBitLife é um projeto desenvolvido durante a semana Mobile do On
 
 ## ⏳ Inicialização
 
-Esse projeto foi desenvolvido em ambiente Linux, utilizando o Ubuntu 22 e as tecnologias citadas anteriormente. Utilizamos o Expo, como fremework do React Native e o Visual Studio Code como IDE de desenvolvimento. Para fazer a pré-visualização do projeto, utilizamos o Android Studio. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugerimos que você acesse os links indicados abaixo:
+Esse projeto foi desenvolvido em ambiente Linux, utilizando o Ubuntu 22 e as tecnologias citadas anteriormente. Utilizamos o Expo, como fremework do React Native e o Visual Studio Code como editor de códigos no desenvolvimento. Para fazer a pré-visualização do projeto, utilizamos o Android Studio. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugerimos que você acesse os links indicados abaixo:
 <br><br>
 
 Preparamos 4 tutoriais para você aprender a preparar seu ambiente no Linux, no Windows e 2 vídeos de como começar com o React Native:
