@@ -3,8 +3,7 @@
 # Aplicativo desenvolvido durante a Semana Mobile do OneBitCode
 
 ## ⚛️ Sobre a Semana Mobile do OneBitCode
-Evento do OneBitCode, que acontece do dia 28/11 até 04/12. 
-Onde você vai poder criar o seu primeiro projeto Mobile com React Native e dar o primeiro passo em uma das áreas de alta remuneração da Programação!
+Evento do OneBitCode, que acontece do dia 28/11 até 04/12, onde você vai poder criar o seu primeiro projeto Mobile com React Native e dar o primeiro passo em uma das áreas de alta remuneração da Programação!
 Acesse o cronograma do evento e todas as informações importantes:
 
 https://lp.onebitcode.com/semana-mobile-onebitcode/?utm_source=fs
