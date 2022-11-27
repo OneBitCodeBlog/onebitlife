@@ -1,24 +1,22 @@
-![imghorizontallogoobc](https://user-images.githubusercontent.com/29529757/176974783-c26e18fc-4712-415c-a281-2fc90169817f.png)
+![semobile-bannernotion](https://user-images.githubusercontent.com/29529757/204114760-f461dab9-1e8c-434d-a8d2-7f8bc03f0549.jpg)
 
-# API Rest para avaliação de restaurantes
+# Aplicativo desenvolvido durante a Semana Mobile do OneBitCode
 
 ## 📖 Descrição
 
-Esse é o projeto de uma API Rest para avaliação de restaurantes. Ela armazena o cadastro de clientes e restaurantes, em seguida os clientes poderão avaliá-los.
-Essa API foi desenvolvida como desafio proposto para a primeira turma do OneBitCode Black.
+O aplicativo OneBitLife é um projeto desenvolvido durante a semana Mobile do OneBitCode. O objetivo dele é fazer um gerenciamento de tarefas, que ajudam o usuário a fixar hábitos melhores e mais saudáveis em sua vida. De uma forma bem visual, o BIT, nosso robô, alerta o usuário caso ele não esteja cumprindo suas tarefas da forma que foi planejada. O robô vai mudando de humor e a barrinha que indica que ele está progredindo, vai diminuindo, até que ele pode morrer, caso as tarefas não sejam cumpridas.
 
 <br/>
 
 ## 🛠️ Funcionalidades
 
-- Armazenar os dados do restaurante
-- Armazenar os dados dos clientes
-- Os clientes podem avaliar os restaurantes com de 1 a 5 estrelas (⭐⭐⭐⭐⭐)
-- Clientes não devem ser capazes de avaliar o mesmo restaurante mais de uma vez
-- Obter todas as avaliações que um cliente já fez e uma média dessas avaliações
-- Obter todas as avaliações de um restaurante e uma média de estrelas
-- Obter os 5 restaurantes mais bem avaliados
-  <br/>
+- Criar os hábitos que deseja melhorar
+- Criar notificações
+- Editar os hábitos
+- Excluir os hábitos
+- Marcar a tarefa como concluída
+
+
 
 ## 📡 Tecnologias utilizadas
 
@@ -34,7 +32,6 @@ Essa API foi desenvolvida como desafio proposto para a primeira turma do OneBitC
 
 ## ⏳ Inicialização
 
-ABCSFD
 
 Esse projeto foi desenvolvido em ambiente Linux, utilizando o Ubuntu 22 e as tecnologias citadas anteriormente. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugerimos que você acesse os links indicados abaixo:
 
