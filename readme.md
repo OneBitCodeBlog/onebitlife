@@ -12,7 +12,7 @@ https://lp.onebitcode.com/semana-mobile-onebitcode/?utm_source=fs
 
 ## 📖 Descrição
 
-O aplicativo OneBitLife é um projeto desenvolvido durante a semana Mobile do OneBitCode. O objetivo dele é fazer um gerenciamento de tarefas, que ajudam o usuário a fixar hábitos melhores e mais saudáveis em sua vida. De uma forma bem visual, o BIT, nosso robô, alerta o usuário caso ele não esteja cumprindo suas tarefas da forma que foi planejada. O robô vai mudando de humor e a barrinha que indica que ele está progredindo, vai diminuindo, até que ele pode morrer, caso as tarefas não sejam cumpridas.
+O aplicativo **OneBitLife** é um projeto desenvolvido durante a **Semana Mobile do OneBitCode**. O objetivo dele é fazer um gerenciamento de tarefas, que ajudam o usuário a fixar hábitos melhores e mais saudáveis em sua vida. De uma forma bem visual, o BIT, nosso robô, alerta o usuário caso ele não esteja cumprindo suas tarefas da forma que foi planejada. O robô vai mudando de humor e a barrinha que indica que ele está progredindo, vai diminuindo, até que ele pode morrer, caso as tarefas não sejam cumpridas.
 ![12 _Robotic_Diagnostic_00168](https://user-images.githubusercontent.com/29529757/204115716-40dc28ec-a993-4545-ab95-b128f2fa6039.png)
 
 ## 🛠️ Funcionalidades
@@ -39,7 +39,7 @@ O aplicativo OneBitLife é um projeto desenvolvido durante a semana Mobile do On
 
 ## ⏳ Inicialização
 
-Esse projeto foi desenvolvido em ambiente Linux, utilizando o Ubuntu 22 e as tecnologias citadas anteriormente. Utilizamos o Expo, como fremework do React Native e o Visual Studio Code como editor de códigos no desenvolvimento. Para fazer a pré-visualização do projeto, utilizamos o Android Studio. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugerimos que você acesse os links indicados abaixo:
+Esse projeto foi desenvolvido em ambiente **Linux**, utilizando o **Ubuntu 22** e as tecnologias citadas anteriormente. Utilizamos o **Expo**, como fremework do **React Native** e o **Visual Studio Code** como editor de códigos no desenvolvimento. Para fazer a pré-visualização do projeto, utilizamos o **Android Studio**. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugerimos que você acesse os links indicados abaixo:
 <br><br>
 
 Preparamos 4 tutoriais para você aprender a preparar seu ambiente no Linux, no Windows e 2 vídeos de como começar com o React Native:
