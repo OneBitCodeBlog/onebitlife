@@ -17,16 +17,16 @@ O aplicativo OneBitLife é um projeto desenvolvido durante a semana Mobile do On
 - Marcar a tarefa como concluída
 
 
-
 ## 📡 Tecnologias utilizadas
 
 <div align="center"> 
 <img align="left" alt="NodeJs" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
-<img align="left" alt="Typescript" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
-<img align="left" alt="Sequelize" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/sequelize/sequelize-original.svg">
-<img align="left" alt="Express" src="https://img.shields.io/badge/-Express-05122A?style=flat&logo=express">
-<img align="left" alt="Postgresql" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
-
+<img align="left" alt="Javascript" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+<img align="left" alt="React" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+<img align="left" alt="SQLite" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg">
+  
+<img align="left" alt="SQLite" height="30" width="30" src="https://github.com/devicons/devicon/blob/master/icons/androidstudio/androidstudio-original.svg">
+  
 </div>
 <br/><br/>
 
