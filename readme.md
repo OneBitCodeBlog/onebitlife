@@ -33,16 +33,48 @@ O aplicativo OneBitLife é um projeto desenvolvido durante a semana Mobile do On
 ## ⏳ Inicialização
 
 
-Esse projeto foi desenvolvido em ambiente Linux, utilizando o Ubuntu 22 e as tecnologias citadas anteriormente. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugerimos que você acesse os links indicados abaixo:
+Esse projeto foi desenvolvido em ambiente Linux, utilizando o Ubuntu 22 e as tecnologias citadas anteriormente. Utilizamos o Expo, como fremework do React Native e o Visual Studio Code como IDE de desenvolvimento. Para fazer a pré-visualização do projeto, utilizamos o Android Studio. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugerimos que você acesse os links indicados abaixo:
 
 A preparação do ambiente consiste em instalar as tecnologias citadas anteriormente de acordo com seu sistema operacional.
 
+
+O cURL precisa ser instalado, caso ainda não esteja no seu sistema - Download: https://curl.se/download.html  
+
+```
+sudo apt-get install curl
+```
+
 Para instalar o Node.js, acesse: https://nodejs.org/pt-br/download/package-manager/
 
-O Typescript também precisa ser configurado, utilize essa página como referência: https://www.typescriptlang.org/download
+```
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 
-O sequelize deve ser configurado conforme orientações da documentação oficial: https://sequelize.org/docs/v6/getting-started/
-Para utilizar o express, ele também deve ser instalado
+sudo apt-get install -y nodejs
+
+node -v (Verificar a versão do Node.js e se ele foi instalado corretamente)
+npm -v (Verificar a versão do npm e se ele está instalado)
+```
+
+
+Instalação do expo-cli - Documentação: https://docs.expo.dev/get-started/installation/
+
+
+```
+npm install -g expo-cli
+
+expo --version
+```
+
+
+git (provavelmente você já tem instalado) - Se não tiver instalado: https://git-scm.com/book/pt-br/v2/Começando-Instalando-o-Git
+sudo apt-get install git
+
+
+```
+git --version
+```
+
+Android Studio, como emulador do App. Você pode baixar por esse link: https://developer.android.com/studio . Aqui você vai encontrar as versões para todos os sistemas operacionais.
 
 <br/>
 
