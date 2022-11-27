@@ -1,9 +1,7 @@
 import DateTimePicker from "@react-native-community/datetimepicker";
 import React, { useState } from "react";
-import { StyleSheet, View, TouchableOpacity } from "react-native";
+import { StyleSheet, View, TouchableOpacity, Text, Image } from "react-native";
 import { SelectList } from "react-native-dropdown-select-list";
-
-import { Text } from "react-native-paper";
 
 export default function TimeDataPicker({
   frequency,
@@ -32,6 +30,10 @@ export default function TimeDataPicker({
       dateNotification = selected;
     }
     const timeNotification = `${notficationHour}:${notficationMin}`;
+
+    setNotificationDate(dateNotification);
+    setNotificationTime(timeNotification);
+
     if (frequency === "Diário") {
       setDayNotification("Diário");
     } else {

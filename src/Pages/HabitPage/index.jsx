@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef, setHabitInput } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import {
   View,
   Text,
@@ -7,17 +7,17 @@ import {
   TouchableOpacity,
   ScrollView,
 } from "react-native";
-
 import { useNavigation } from "@react-navigation/native";
 
 import SelectHabit from "../../Components/HabitPage/SelectHabit";
 import SelectFrequency from "../../Components/HabitPage/SelectFrequency";
 import Notification from "../../Components/HabitPage/Notification";
-import TimeDataPicker from "../../Components/HabitPage/TimeDataPicker";
+import TimeDatePicker from "../../Components/HabitPage/TimeDataPicker";
 
 export default function HabitPage({ route }) {
   const navigation = useNavigation();
   const [habitInput, setHabitInput] = useState();
+
   const [frequencyInput, setFrequencyInput] = useState();
   const [notificationToggle, setNotificationToggle] = useState();
   const [dayNotification, setDayNotification] = useState();
@@ -30,7 +30,7 @@ export default function HabitPage({ route }) {
       <ScrollView>
         <View>
           <TouchableOpacity
-            style={styles.backPageBtn}
+            style={styles.bakcPageBtn}
             onPress={() => navigation.goBack()}
           >
             <Image
@@ -44,13 +44,16 @@ export default function HabitPage({ route }) {
             <View style={styles.inputContainer}>
               <Text style={styles.area}>{habit?.habitArea}</Text>
             </View>
+
             <Text style={styles.inputText}>Hábito</Text>
             <SelectHabit habit={habit} habitInput={setHabitInput} />
+
             <Text style={styles.inputText}>Frequência</Text>
             <SelectFrequency
               habitFrequency={habit?.habitFrequency}
               frequencyInput={setFrequencyInput}
             />
+
             {frequencyInput === "Mensal" ? null : (
               <Notification
                 notificationToggle={notificationToggle}
@@ -60,7 +63,7 @@ export default function HabitPage({ route }) {
 
             {notificationToggle ? (
               frequencyInput === "Mensal" ? null : (
-                <TimeDataPicker
+                <TimeDatePicker
                   frequency={frequencyInput}
                   dayNotification={dayNotification}
                   timeNotification={timeNotification}
@@ -81,7 +84,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "rgba(21, 21, 21, 0.98)",
   },
-  backPageBtn: {
+  bakcPageBtn: {
     width: 40,
     height: 40,
     margin: 25,
@@ -93,6 +96,9 @@ const styles = StyleSheet.create({
   mainContent: {
     width: 250,
     alignSelf: "center",
+  },
+  configButton: {
+    alignItems: "center",
   },
   title: {
     fontWeight: "bold",
