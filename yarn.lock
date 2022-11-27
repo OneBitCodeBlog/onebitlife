@@ -1724,6 +1724,13 @@
     "prompts" "^2.4.0"
     "semver" "^6.3.0"
 
+"@react-native-community/datetimepicker@6.5.2":
+  "integrity" "sha512-9K3zhIH1zmpIGSG3GJTWLIoAx+sR4kJ1wqpGKMwWJ5IYXBsFxMdvGw023t0pz2CQStlnNbbNhnZY/HMYFBCsCg=="
+  "resolved" "https://registry.npmjs.org/@react-native-community/datetimepicker/-/datetimepicker-6.5.2.tgz"
+  "version" "6.5.2"
+  dependencies:
+    "invariant" "^2.2.4"
+
 "@react-native/assets@1.0.0":
   "integrity" "sha512-KrwSpS1tKI70wuKl68DwJZYEvXktDHdZMG0k2AXD/rJVSlB23/X2CB2cutVR0HwNMJIal9HOUOBB2rVfa6UGtQ=="
   "resolved" "https://registry.npmjs.org/@react-native/assets/-/assets-1.0.0.tgz"
@@ -7024,6 +7031,11 @@
     "string-width" "^4.2.0"
     "y18n" "^5.0.5"
     "yargs-parser" "^20.2.2"
+
+"yarn@^1.22.19":
+  "integrity" "sha512-/0V5q0WbslqnwP91tirOvldvYISzaqhClxzyUKXYxs07yUILIs5jx/k6CFe8bvKSkds5w+eiOqta39Wk3WxdcQ=="
+  "resolved" "https://registry.npmjs.org/yarn/-/yarn-1.22.19.tgz"
+  "version" "1.22.19"
 
 "yocto-queue@^0.1.0":
   "integrity" "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="
