@@ -92,10 +92,10 @@ expo --version
 <br>
 
 git (provavelmente você já tem instalado) - Se não tiver instalado: https://git-scm.com/book/pt-br/v2/Começando-Instalando-o-Git
-sudo apt-get install git
-
 
 ```
+sudo apt-get install git
+
 git --version
 ```
 <br>
