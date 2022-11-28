@@ -132,6 +132,23 @@ export default function HabitPage({ route }) {
                 />
               )
             ) : null}
+
+            {create === false ? (
+              <UpdateExcludeButtons
+                handleUpdate={handleUpdateHabit}
+                habitArea={habitArea}
+                habitInput={habitInput}
+              />
+            ) : (
+              <View style={styles.configButton}>
+                <DefaultButton
+                  buttonText={"Criar"}
+                  handlePress={handleCreateHabit}
+                  width={250}
+                  height={50}
+                />
+              </View>
+            )}
           </View>
         </View>
       </ScrollView>
