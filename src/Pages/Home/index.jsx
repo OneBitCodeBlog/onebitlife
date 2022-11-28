@@ -24,7 +24,7 @@ export default function Home({ route }) {
     navigation.navigate("AppExplanation");
   }
 
-  const excludeArea = route.param?.excludeArea;
+  const excludeArea = route.params?.excludeArea;
 
   useEffect(() => {
     HabitsService.findByArea("Mente").then((mind) => {
