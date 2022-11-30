@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Text, TouchableOpacity, StyleSheet, View, Image } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import CheckService from "../../../Services/CheckService";
 
 export default function ({ habit, frequency, habitArea, checkColor }) {
   const navigation = useNavigation();
@@ -8,6 +9,9 @@ export default function ({ habit, frequency, habitArea, checkColor }) {
   const [checkImage, setCheckImage] = useState(
     require("../../../assets/icons/Mind.png")
   );
+  const checkData = new Date();
+  const formatDate = `${checkData.getFullYear()}-${checkData.getMonth()}-${checkData.getDate()}`;
+
   function handleEdit() {
     navigation.navigate("HabitPage", {
       create: false,
@@ -17,6 +21,13 @@ export default function ({ habit, frequency, habitArea, checkColor }) {
 
   function handleCheck() {
     if (habitCheck === 0) {
+      CheckService.checkHabit({
+        lastCheck: formatDate,
+        habitIsChecked: 1,
+        habitChecks: habit?.habitChecks + 1,
+        habitArea: habit?.habitArea,
+      });
+
       setHabitCheck(1);
     }
   }
