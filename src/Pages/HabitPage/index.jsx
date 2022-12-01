@@ -86,6 +86,7 @@ export default function HabitPage({ route }) {
         daysWithoutChecks: 0,
         habitIsChecked: 0,
         progressBar: 1,
+        habitChecks: 0,
       }).then(() => {
         Alert.alert("Sucesso na criação do hábito!");
 
