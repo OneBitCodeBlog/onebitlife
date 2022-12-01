@@ -24,7 +24,6 @@ export default function Home({ route }) {
   function handleNavExplanation() {
     navigation.navigate("AppExplanation");
   }
-
   const excludeArea = route.params?.excludeArea;
 
   useEffect(() => {
@@ -79,7 +78,12 @@ export default function Home({ route }) {
             checks
           </Text>
 
-          <LifeStatus />
+          <LifeStatus
+            mindHabit={mindHabit}
+            moneyHabit={moneyHabit}
+            bodyHabit={bodyHabit}
+            funHabit={funHabit}
+          />
           <StatusBar
             mindHabit={mindHabit?.progressBar}
             moneyHabit={moneyHabit?.progressBar}
